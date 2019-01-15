@@ -1,0 +1,50 @@
+name: homepage
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  card_settings: ^1.2.2
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - backpack.png
+    - blackboard-1.png
+    - books.png
+    - earth-globe.png
+    - flask.png
+    - light-bulb.png
+    - medal.png
+    - microscope.png
+    - mortarboard.png
+    - palette.png
+    - professor.png
+    - school.png
+    - test.png
+    - physics.png
+
+  fonts:
+    - family: Exo
+      fonts:
+        - asset: assets/fonts/Exo-Bold.ttf
+        - asset: assets/fonts/Exo-BoldItalic.ttf
+        - asset: assets/fonts/Exo-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Exo-Medium.ttf
+        - asset: assets/fonts/Exo-Regular.ttf
+        - asset: assets/fonts/Exo-SemiBold.ttf
+ 
