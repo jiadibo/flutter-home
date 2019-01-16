@@ -8,10 +8,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
       home: HomeActivity(),
     );
   }
@@ -178,7 +174,7 @@ class _HomeActivityState extends State<HomeActivity> {
                         ),
                       ],
                     ),
-                    SizedBox(height: 55.0),
+                    SizedBox(height: 40.0),
                     Padding(
                       padding: EdgeInsets.only(left: 15.0, right: 15.0),
                       child: Material(
@@ -204,7 +200,7 @@ class _HomeActivityState extends State<HomeActivity> {
             ),
           ),
           SizedBox(
-            height: 10.0,
+            height: 15.0,
           ),
           Stack(
             children: <Widget>[
