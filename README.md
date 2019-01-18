@@ -1,6 +1,6 @@
-# homepage
+# HomePage Activity
 
-(https://github.com/jiadibo/flutter-home/blob/master/images/photo_2019-01-18_17-23-06.jpg)
+![Screenshot](https://github.com/jiadibo/flutter-home/blob/master/images/photo_2019-01-18_17-23-06.jpg)
 
 A new Flutter project.
 
