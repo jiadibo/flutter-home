@@ -8,6 +8,38 @@ Flutter is a mobile App SDK by Google which helps in creating modern mobile apps
 
 A new Flutter project.
 
+let’s create a simple application containing basic MaterialApp with Scaffold contains Body
+```Dart
+ import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: HomeActivity(),
+    );
+  }
+}
+
+class HomeActivity extends StatefulWidget {
+  @override
+  _HomeActivityState createState() => _HomeActivityState();
+}
+
+class _HomeActivityState extends State<HomeActivity> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+     
+    );
+  }
+}
+```
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
@@ -21,3 +53,6 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.io/docs), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
 # flutter-home
+
+ 
+ 
