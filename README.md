@@ -1,3 +1,7 @@
+Flutter is a mobile App SDK by Google which helps in creating modern mobile apps for iOS and Android using a single(almost) code base. It’s a new entrant in the cross platform mobile application development and unlike other frameworks like React Native, it doesn’t use JavaScript but DART as a Programming Language.
+
+
+
 # HomePage Activity
 
 ![Screenshot](https://github.com/jiadibo/flutter-home/blob/master/images/photo_2019-01-18_17-23-06.jpg)
