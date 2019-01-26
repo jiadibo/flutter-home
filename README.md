@@ -55,6 +55,25 @@ Next step is to build the body of the class HomeActivity.
 
 Creating a stateful widget is as simple as extending the StatefulWidget class:
 
+```class HomeActivity extends StatefulWidget {
+  @override
+  _HomeActivityState createState() => _HomeActivityState();
+}
+```
+
+Now, we need to create a class which would manage the state of the stateful widget. I’ll be calling it Scaffold.
+
+```
+class _HomeActivityState extends State<HomeActivity> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: ListView(),
+    );
+  }
+}
+```
+
 ```Dart
  import 'package:flutter/material.dart';
 
