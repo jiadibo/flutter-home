@@ -17,7 +17,25 @@ You'll notice some code in the main.dart file, delete all of it. we'll be creati
 
   ## Adding a stateless widget
   
-  I hope you've deleted all the code in main.dart file as we would be starting from scracth. First, we need to add a stateless widget, which can be thought of as the container of our app.
+  I hope you've deleted all the code in main.dart file as we would be starting from scracth. First, we need to add a stateless widget, which can be thought of as the container of our app. This is the container that would never change. All the widgets added henceforth will be its children or grand-children and so on.
+  
+Import the material library and the library to generate random words.
+```import 'package:flutter/material.dart';```
+
+Let’s initiate the app launch in the main method:
+```void main() => runApp(MyApp());```
+
+Finally, we create the stateless widget MyApp as below:
+```class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: HomeActivity(),
+    );
+  }
+}```
  
 ```Dart
  import 'package:flutter/material.dart';
