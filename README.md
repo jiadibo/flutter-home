@@ -79,9 +79,10 @@ class _HomeActivityState extends State<HomeActivity> {
   }
 }
 ```
+Here’s how your main.dart should look like at the end
 
 ```Dart
- import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
