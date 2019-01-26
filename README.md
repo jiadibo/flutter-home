@@ -38,7 +38,8 @@ Finally, we create the stateless widget MyApp as below:
       home: HomeActivity(),
     );
   }
-}```
+}
+```
 
 To create a Stateless widget all you need to do is extend the StatelessWidget class and override build method. Build returns a Widget, in our case which is MaterialApp, as we are using material design.
 
