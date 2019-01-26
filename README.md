@@ -11,9 +11,14 @@ A new Flutter project.
 ## Getting Started
 
 We'll start by creating an empty project. Click on #File - New Flutter Project,
-and create flutter application.
+and create flutter application containing basic MaterialApp with Scaffold contains Body.
 
-let’s create a simple application containing basic MaterialApp with Scaffold contains Body
+You'll notice some code in the main.dart file, delete all of it. we'll be creating a new app from scratch.
+
+  ## Adding a stateless widget
+  
+  I hope you've deleted all the code in main.dart file as we would be starting from scracth. First, we need to add a stateless widget, which can be thought of as the container of our app.
+ 
 ```Dart
  import 'package:flutter/material.dart';
 
@@ -56,6 +61,6 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.io/docs), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
 
-# flutter-home
+# flutter-home-page
 
  
